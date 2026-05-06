@@ -145,16 +145,34 @@ amsg-web/
 
 ## Screenshots
 
-> Take screenshots locally with `docker compose up` running. Recommended: dark theme, 1440×900.
+> Captured locally via `docker compose up`. Dark theme, 1440 × 900 viewport, `demo` source.
 
-| Page | Path | Caption |
-|---|---|---|
-| Home | `docs/screenshots/home.jpg` | Hero, features, pipeline, NMS formula, limitations callout. |
-| Analyze | `docs/screenshots/analyze.jpg` | Source multiselect, date range, settings sliders, history sidebar. |
-| Results | `docs/screenshots/results.jpg` | Hero metrics, Plotly time series with event bands, NMS heatmap, p-value histogram, events table. |
-| Docs | `docs/screenshots/docs.jpg` | Method walkthrough with sticky table of contents. |
-
-Save the four screenshots (PNG or JPG) in `docs/screenshots/` so the table renders inline on GitHub.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Home</strong><br/>
+      <sub>Hero, method walkthrough, sample chart, limitations callout.</sub><br/><br/>
+      <img src="docs/screenshots/home.jpg" alt="Home page" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Analyze</strong><br/>
+      <sub>Source multiselect, date range, settings sliders, history sidebar.</sub><br/><br/>
+      <img src="docs/screenshots/analyze.jpg" alt="Analyze page" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Results</strong><br/>
+      <sub>Hero metrics, Plotly time-series with event bands, NMS heatmap, p-value histogram, events table.</sub><br/><br/>
+      <img src="docs/screenshots/results.jpg" alt="Results page" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Method</strong><br/>
+      <sub>Walkthrough with marginalia table of contents.</sub><br/><br/>
+      <img src="docs/screenshots/docs.jpg" alt="Method page" />
+    </td>
+  </tr>
+</table>
 
 ---
 
